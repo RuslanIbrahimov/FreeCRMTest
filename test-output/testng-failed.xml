@@ -6,32 +6,14 @@
   </listeners>
   <test thread-count="5" name="Free  CRM App Test Cases(failed)">
     <classes>
-      <class name="com.crm.qa.testcases.HomePageTest">
-        <methods>
-          <include name="verifyUserNameTest"/>
-          <include name="verifyContactsLinkTest"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="verifyHomePageTitleTest"/>
-        </methods>
-      </class> <!-- com.crm.qa.testcases.HomePageTest -->
       <class name="com.crm.qa.testcases.ContactsPageTest">
         <methods>
           <include name="setUp"/>
           <include name="selectMultipleContactsTest"/>
-          <include name="verifyContactsPageLabel"/>
           <include name="tearDown"/>
-          <include name="validateCreateNewContact"/>
           <include name="selectContactsTest"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
-      <class name="com.crm.qa.testcases.LoginPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="loginTest"/>
-        </methods>
-      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
     </classes>
   </test> <!-- Free  CRM App Test Cases(failed) -->
 </suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->

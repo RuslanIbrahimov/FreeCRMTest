@@ -43,14 +43,14 @@ public class ContactsPageTest extends TestBase {
 
 	@Test(priority = 2)
 	public void selectContactsTest() throws InterruptedException {
-		contactsPage.selectContactsByName("Ruslan");
+		contactsPage.selectContactsByName("Sanan");
 		TestUtil.waitFor(2);
 	}
 
 	@Test(priority = 3)
 	public void selectMultipleContactsTest() throws InterruptedException {
-		contactsPage.selectContactsByName("Ruslan");
-		contactsPage.selectContactsByName("Raju");
+		contactsPage.selectContactsByName("Tom");
+		contactsPage.selectContactsByName("Sanan");
 		TestUtil.waitFor(2);
 	}
 
